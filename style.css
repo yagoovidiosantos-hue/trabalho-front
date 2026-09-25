@@ -1,0 +1,71 @@
+body {
+    background-color: #000000;
+    margin: 0;
+}
+
+.cartaz {
+    width: 100vw;
+    height: 100vh;
+    background-color: #000000;
+    position: relative;
+}
+
+.logo {
+    position: absolute;
+    top: 25px;
+    left: 35px;
+    color: #d99b35;
+    font-size: 12px;
+}
+
+.imagem1 {
+    width: 120px;
+    height: 150px;
+    background-image: url("https://images.unsplash.com/photo-1485846234645-a62644f84728?w=300");
+    background-size: cover;
+    position: absolute;
+    top: 40px;
+    right: 80px;
+}
+
+.imagem2 {
+    width: 110px;
+    height: 110px;
+    background-image: url("https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?w=300");
+    background-size: cover;
+    position: absolute;
+    left: 50px;
+    bottom: 60px;
+    border-radius: 50%;
+}
+
+.imagem3 {
+    width: 180px;
+    height: 110px;
+    background-image: url("https://images.unsplash.com/photo-1483985988355-763728e1935b?w=500");
+    background-size: cover;
+    position: absolute;
+    right: 150px;
+    bottom: 40px;
+}
+
+.titulo {
+    position: absolute;
+    top: 25%;
+    left: 25%;
+}
+
+.titulo h1 {
+    font-size: 70px;
+    color: #eeeeee;
+    line-height: 70px;
+}
+
+.texto {
+    position: absolute;
+    left: 25%;
+    bottom: 12%;
+    width: 300px;
+    color: #bbbbbb;
+    font-size: 13px;
+}
